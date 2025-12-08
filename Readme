@@ -1,0 +1,10 @@
+1. $ docker run -d -p 8080:80 --name webserver nginx
+(to run a server)
+
+2. docker ps (list all containers)
+3. docker images (list all images)
+
+4. docker stop webserver 
+5. docker rm webserver --- remove container
+
+6. docker rmi nginx ---remove image
